@@ -12,7 +12,6 @@ const CartPage = (props) => {
         removeItem,
         emptyCart,
     } = useCart();
-    console.log(items);
     if(isEmpty) return (
         <>
             <Navbar />
